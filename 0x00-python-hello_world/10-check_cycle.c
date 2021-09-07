@@ -1,4 +1,4 @@
-#include "lists.h" 
+#include "lists.h"
 
 /**
  * check_cycle - prints all elements of a listint_t list
