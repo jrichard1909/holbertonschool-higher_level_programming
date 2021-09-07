@@ -16,5 +16,5 @@ int check_cycle(listint_t *list)
 	while (node && node != list)
 		node = node->next;
 
-	return (node == list);
+	return (0);
 }
