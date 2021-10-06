@@ -1,11 +1,11 @@
 #!/usr/bin/python3
-""" 
+"""
     text_indentation
 """
 
 
 def text_indentation(text):
-    """ 
+    """
         prints "text" with 2 newlines
     """
     if type(text) != str:
@@ -15,7 +15,7 @@ def text_indentation(text):
     # Removes the space after special chars
     idx = 0
     for c in text:
-        if c  in chars:
+        if c in chars:
             if text[idx + 1] == " ":
                 text = text[:idx + 1] + text[idx + 2:]
         else:

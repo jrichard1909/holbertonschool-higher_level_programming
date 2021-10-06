@@ -1,11 +1,11 @@
 #!/usr/bin/python3
-""" 
+"""
     print_square
 """
 
 
 def print_square(size):
-    """ 
+    """
         Prints a square
     """
     if type(size) != int:

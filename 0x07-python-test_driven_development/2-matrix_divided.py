@@ -1,11 +1,11 @@
 #!/usr/bin/python3
-""" 
+"""
     divides the given matrix
 """
 
 
 def matrix_divided(matrix, div):
-    """ 
+    """
         Divides all elements of a matri
     """
     m1 = "matrix must be a matrix (list of lists) of integers/floats"
