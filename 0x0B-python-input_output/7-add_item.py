@@ -9,10 +9,7 @@ save_to_json_file = __import__('5-save_to_json_file').save_to_json_file
 
 filename = "add_item.json"
 
-try:
-    _list = load_from_json_file(filename)
-except:
-    _list = []
+_list = load_from_json_file(filename)
 
 for i in range(1, len(sys.argv)):
     _list.append(sys.argv[i])
