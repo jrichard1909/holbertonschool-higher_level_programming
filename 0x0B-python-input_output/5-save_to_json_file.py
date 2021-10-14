@@ -4,6 +4,7 @@
 """
 import json
 
+
 def save_to_json_file(my_obj, filename):
     """
     function that appends a string at the end of a text
