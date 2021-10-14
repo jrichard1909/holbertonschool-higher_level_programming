@@ -3,6 +3,7 @@
     Student to JSON with filter
 """
 
+
 class Student:
     """
         class Student that defines a student
@@ -18,7 +19,7 @@ class Student:
            retrieves a dictionary representation of a Student instance
         """
 
-        if attrs == None:
+        if attrs is None:
             return self.__dict__
         else:
             tmp = {}
@@ -28,5 +29,3 @@ class Student:
                 if item in self.__dict__.keys():
                     tmp[item] = self.__dict__[item]
             return tmp
-
-
