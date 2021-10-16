@@ -56,7 +56,7 @@ Now use it:
 	>>> bg = BaseGeometry(2)
 	Traceback (most recent call last):
 	...
-	TypeError: object() takes no parameters
+	TypeError: BaseGeometry() takes no parameters
 
 	>>> bg = BaseGeometry()
 	>>> bg.integer_validator(123, 'Hello world!!')
