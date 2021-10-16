@@ -4,7 +4,8 @@
 
 
 class MyList(list):
-    """inherits 
+    """
+        inherits
     """
 
     def print_sorted(self):
