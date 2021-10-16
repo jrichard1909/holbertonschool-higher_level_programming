@@ -67,7 +67,7 @@ Now use it:
 	>>> bg = BaseGeometry(None)
 	Traceback (most recent call last):
 	...
-	TypeError: object() takes no parameters
+	TypeError: BaseGeometry() takes no arguments
 
 	>>> bg = BaseGeometry()
 	>>> bg.integer_validator('None', None)
