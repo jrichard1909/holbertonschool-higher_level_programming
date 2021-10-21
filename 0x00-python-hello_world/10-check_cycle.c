@@ -8,7 +8,7 @@
 
 int check_cycle(listint_t *list)
 {
-	listint_t *node1, *node2;
+	listint_t *temp1, *temp2;
 
 	temp1 = list;
 	temp2 = list;
