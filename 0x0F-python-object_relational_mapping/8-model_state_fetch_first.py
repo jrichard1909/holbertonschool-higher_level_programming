@@ -19,7 +19,7 @@ if __name__ == "__main__":
     session = Session(bind=engine)
     statement = select(State)
     result = session.query(State).first()
-    if session.query(State).count() > 0:
+    if result is not None:
         print("{}: {}".format(result.id, result.name))
     else:
         print('Nothing\n')
