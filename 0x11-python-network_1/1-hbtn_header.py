@@ -8,5 +8,5 @@ header of the response
 """
 if __name__ == "__main__":
     with request.urlopen(argv[1]) as response:
-        data = response.headers.get("X-Request-Id")
-    print(data)
+        data = response.info()
+    print(data['X-Request-Id'])
