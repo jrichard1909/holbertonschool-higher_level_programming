@@ -12,7 +12,7 @@ if __name__ == "__main__":
         'username': sys.argv[1],
         'Authorization': "token " + sys.argv[2]
     }
-    r = requests.post('https://api.github.com/user', headers=values)
+    r = requests.get('https://api.github.com/user', headers=values)
     try:
         data = r.json()
         print(data.get('id'))
