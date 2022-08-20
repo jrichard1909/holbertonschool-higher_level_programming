@@ -8,5 +8,5 @@ header of the response
 """
 if argv[1]:
     with request.urlopen(argv[1]) as response:
-        data = response.headers["X-Request-Id"]
+        data = response.headers.get("X-Request-Id")
     print(data)
