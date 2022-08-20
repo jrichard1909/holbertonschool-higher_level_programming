@@ -15,9 +15,6 @@ if __name__ == "__main__":
     r = requests.post('https://api.github.com/user', headers=values)
     try:
         data = r.json()
-        if len(data) > 0:
-            print("{}".format(data.get('id')))
-        else:
-            print("Not result")
+        print(data.get('id'))
     except ValueError:
         print("Not a valid JSON")
